@@ -7,18 +7,15 @@ background-color: rgb(110, 110, 110);
 }
 header{
     background-color: rgb(233, 233, 229);
+    height: 4rem;
     z-index: 1;
-    padding-inline-start: 40px;
     position: relative;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    position: flex;
-    margin: -20px;
 }
 
 
-
+main{
+    margin-top: 2rem;
+}
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,19 +24,15 @@ h1{
 .encabezado{
     background-color: rgb(233, 233, 229);
     display: flex;
-    margin-left: 7%;
-    padding: 15px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bold;
     text-align: center;
-
 }
 
 .crearusuario{
     padding: 20px;
     margin-top: 10px;
-    margin-left: px;
     z-index: 900;
     list-style: none;
 
@@ -83,8 +76,6 @@ display: inline-block;
         height: 60px;
         opacity: 40%;
         z-index: 100;
-        margin-top: -50px;
-        margin-left: 20px;
         position: absolute;
     }
 
