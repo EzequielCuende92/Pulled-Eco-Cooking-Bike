@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
 background-color: rgb(110, 110, 110);
 }
@@ -10,42 +14,43 @@ header{
     padding-bottom: 20px;
     padding-left: 40px;
     position: flex;
-    margin: -26px;
-}
-footer{
-    background-color: rgb(233, 233, 229);
+    margin: -20px;
 }
 
-*{
-    box-sizing: border-box;
-}
 
-.fondo{
-    width: 190px;
-    position: absolute;
-    height: 100px;
-    opacity: 40%;
-    top: 5px;
-    z-index: 100;
-    padding-right: 20px;
-    margin-right: 10px;
-}
+
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .encabezado{
-    background-color: rgb(233, 233, 229);;
+    background-color: rgb(233, 233, 229);
     display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
+    margin-left: 7%;
+    padding: 15px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    text-align: center;
+
 }
 
 .crearusuario{
-    margin-left: 900px;
-    float: right;
-    z-index: 200;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 1250px;
+    z-index: 900;
+    list-style: none;
+
+}
+
+.whatsapp{
+    position: fixed;
+    display: block;
+    margin-left: 1500px;
+    margin-top: 630px;
+    border-radius: 50%;
 }
 
 
@@ -73,3 +78,49 @@ display: inline-block;
     display: inline-block;
     }
 
+    .fondo{
+        width: 190px;
+        height: 60px;
+        opacity: 40%;
+        z-index: 100;
+        margin-top: -50px;
+        margin-left: 20px;
+        position: absolute;
+    }
+
+    .fotos{
+        width: 40%;
+        margin: auto;
+        padding-top: 100px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .fotos ul{
+        display: flex;
+        padding: 0%;
+        width: 400%;
+    }
+    .fotos li{
+        width: 100%;
+        list-style: none;
+    }
+    .fotos img{
+        width: 100%;
+    }
+
+    .tuhamburguesa{
+        text-align: center;
+
+    }
+
+    .nuevahamburguesa{
+        width: 300px;
+        height: 80px;
+
+    }
+   
+    footer{
+        margin-top: 1000px;
+        background-color: rgb(233, 233, 229);
+    }
+    
