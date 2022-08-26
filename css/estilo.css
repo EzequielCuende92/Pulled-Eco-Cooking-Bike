@@ -6,6 +6,8 @@ body{
 background-color: rgb(110, 110, 110);
 }
 header{
+    display: flex;
+    align-content: space-around;
     background-color: rgb(233, 233, 229);
     height: 4rem;
     z-index: 1;
@@ -20,8 +22,12 @@ main{
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+nav{
+    width: 90%;
+    margin: auto;
+}
 .encabezado{
+    width: 100%;
     background-color: rgb(233, 233, 229);
     display: flex;
     font-size: larger;
@@ -29,6 +35,20 @@ h1{
     font-weight:bold;
     text-align: center;
 }
+
+.fondo{
+    padding-left: 8rem;
+    width: 10%;
+    height: 60px;
+    opacity: 40%;
+    z-index: 100;
+    position: absolute;
+}
+
+.imageneco{
+    width: 30%;
+}
+
 
 .crearusuario{
     margin-right: 100%;
@@ -68,13 +88,7 @@ display: inline-block;
     display: inline-block;
     }
 
-    .fondo{
-        width: 190px;
-        height: 60px;
-        opacity: 40%;
-        z-index: 100;
-        position: absolute;
-    }
+   
 
     .fotos{
         width: 40%;
