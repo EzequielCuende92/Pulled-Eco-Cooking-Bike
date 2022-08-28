@@ -5,6 +5,7 @@
 body{
 background-color: rgb(110, 110, 110);
 }
+
 header{
     display: flex;
     align-content: space-around;
@@ -12,8 +13,8 @@ header{
     height: 4rem;
     z-index: 1;
     position: relative;
+    width: 100%;
 }
-
 
 main{
     margin-top: 0.5rem;
@@ -23,8 +24,9 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav{
-    width: 90%;
+    width: 50%;
     margin: auto;
+    display: inline-block;
 }
 .encabezado{
     width: 100%;
@@ -37,92 +39,270 @@ nav{
 }
 
 .fondo{
-    padding-left: 8rem;
     width: 10%;
-    height: 60px;
+    height: 3.75rem;
     opacity: 40%;
     z-index: 100;
     position: absolute;
+    text-align: center;
 }
 
 .imageneco{
-    width: 30%;
+    width: 10%;
+    text-align: center;
 }
 
-
-.crearusuario{
-    margin-right: 100%;
-    right: 100%;
+.usu{
+    display: inline-flex;
 }
 
-.whatsapp{
-    position: fixed;
-    display: block;
-    margin-left: 1500px;
-    margin-top: 630px;
-    border-radius: 50%;
+.fillusu{
+    float: right;
 }
 
+.contrasenia{
+    display: inline-flex;
+    text-align: right;
+}
+
+.login{
+    float: right;
+    margin-top: 1.25rem;
+    margin-right: 0.5rem;
+    margin-left: 0.2rem;
+    height: 1rem;
+}
+
+.tuusuario{
+    float: right;
+    right: 0;
+    margin-right: 0;
+}
 
 .inicio{
-margin: auto;
-padding: 0px;
-display: inline-block;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
 }
 
 .productos{
     margin: auto;
-    padding: 0px;
+    padding: 0;
     display: inline-block;
     }
 
 .eventos{
     margin: auto;
-    padding: 0px;
+    padding: 0;
     display: inline-block;
     }
 
 .nosotros{
     margin: auto;
-    padding: 0px;
+    padding: 0;
     display: inline-block;
     }
 
-   
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight:bolder;
+    padding: 3rem;
+    text-align: center;
+    border-color: white;
+    border-style: groove;
+}
 
-    .fotos{
-        width: 40%;
-        margin: auto;
-        padding-top: 100px;
-        overflow: hidden;
-        text-align: center;
-    }
-    .fotos ul{
-        display: flex;
-        padding: 0%;
-        width: 400%;
-    }
-    .fotos li{
-        width: 100%;
-        list-style: none;
-    }
-    .fotos img{
-        width: 100%;
-    }
+.videoin{
+    text-align: center;
+}
 
-    .tuhamburguesa{
-        text-align: center;
+/*crear tu usuario*/
 
-    }
+.userform{
+    text-align: center;
 
-    .nuevahamburguesa{
-        width: 300px;
-        height: 80px;
+    border-style: double;
+    display: inline-block;
+    margin-left: 30%;
+}
 
-    }
-   
-    footer{
-        margin-top: 1000px;
-        background-color: rgb(233, 233, 229);
-    }
+.ficha{
+    width: 10rem;
+    height: 1rem;
+}
+
+.phone{
+    width: 10rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.tuemail{
+    width: 10rem;
+    height: 1rem;
+    margin-right: -0.1rem;
+}
+
+.contra{
+    width: 10rem;
+    height: 1rem;
+    margin-right: 2.6rem;
+}
+
+.contra1{
+    width: 10rem;
+    height: 1rem;
+    margin-right: 9.5rem;
+}
+
+.enter{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+    border-color: black;
+}
+
+/*crea tu usuario*/
+
+.singin{
+    text-align: center;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    border: 1rem;
+    margin-right: -6rem;
     
+}
+
+.whatsapp{
+    width: 2.5rem;
+    position: fixed;
+    display: block;
+    margin-right: 1rem;
+    right: 0;
+    bottom: 2rem;
+    border-radius: 50%;
+}
+
+/*evento*/
+
+.h1evento{
+    text-align: center;
+
+}
+.videopulled{
+    text-align: center;
+}
+
+.tuevento{
+    text-align: center;
+}
+
+/*producto*/
+
+/*quiero hacer un slide de las fotos y no se como, preguntar*/
+
+.fotoproducto{
+
+    display:block;
+}
+
+.slide{
+    margin: auto;
+    width: 100%;
+    height: 200px;
+
+}
+
+.s1{
+    background-image: url(../Imagenes/menu.jpg);
+    width: 12.5rem;
+    height: 15.625rem;
+}
+
+.s2{
+    background-image: url(../Imagenes/beef1.jpg);
+    width: 12.5rem;
+    height: 15.625rem;
+}
+
+.s3{
+    background-image: url(../Imagenes/cooking.jpg);
+    width: 12.5rem;
+    height: 15.625rem;
+}
+
+.s4{
+    background-image: url(../Imagenes/preparado.jpg);
+    width: 12.5rem;
+    height: 15.625rem;
+}
+
+.s5{
+    background-image: url(../Imagenes/pulled2.jpg);
+    width: 12.5rem;
+    height: 15.625rem;
+}
+
+.arrows{
+    position: absolute;
+    font-size: 3.3rem;
+    top: 50%;
+    color: yellow;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, 8);
+    cursor: pointer;
+}
+.arrows:hover {
+    background-color: rgba(255, 255, 255, 3);
+    transform: 0.5s;
+}
+
+.tuhamburguesa{
+        text-align: center;
+     }
+
+.nuevahamburguesa{
+        width: 18.15rem;
+        height: 5rem;
+    }
+   
+/*nosotros*/
+
+.nosotrosimg{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(233, 233, 229);
+    width: 100%;
+    }
+
+.kartimg{
+    width: 100%;
+    text-align: left;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    position: absolute;
+    display: block;
+}
+
+.centrofooter{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.socialmedia{
+    display: inline-flex;
+}
+
+.fb{
+    margin-right: 2rem;
+}
+
+.ig{
+    border-radius: 80%;
+    margin-bottom: 0.3rem;
+    margin-top: -0.1rem;
+}
