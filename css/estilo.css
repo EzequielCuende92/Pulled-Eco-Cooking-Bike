@@ -52,12 +52,18 @@ nav{
     text-align: center;
 }
 
+.crearusuario{
+    margin-right: 1rem;
+}
+
 .usu{
     display: inline-flex;
 }
 
 .fillusu{
     float: right;
+    width: 10.55rem;
+    margin-left: 1.7rem;
 }
 
 .contrasenia{
@@ -66,11 +72,8 @@ nav{
 }
 
 .login{
-    float: right;
-    margin-top: 1.25rem;
-    margin-right: 0.5rem;
-    margin-left: 0.2rem;
-    height: 1rem;
+    margin-top: -3rem;
+    margin-left: 6rem ;  
 }
 
 .tuusuario{
@@ -103,15 +106,7 @@ nav{
     display: inline-block;
     }
 
-h2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    font-weight:bolder;
-    padding: 3rem;
-    text-align: center;
-    border-color: white;
-    border-style: groove;
-}
+
 
 .videoin{
     text-align: center;
@@ -124,7 +119,7 @@ h2{
 
     border-style: double;
     display: inline-block;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .ficha{
@@ -135,7 +130,7 @@ h2{
 .phone{
     width: 10rem;
     height: 1rem;
-    margin-right: 1rem;
+    margin-right: 0.9rem;
 }
 
 .tuemail{
@@ -156,14 +151,20 @@ h2{
     margin-right: 9.5rem;
 }
 
+.reseteo{
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.6rem;
+}
+
 .enter{
-    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
     font-size: 1.2rem;
     border-radius: 0.6rem;
     border-color: black;
 }
-
-/*crea tu usuario*/
 
 .singin{
     text-align: center;
@@ -171,7 +172,6 @@ h2{
     box-sizing: border-box;
     border: 1rem;
     margin-right: -6rem;
-    
 }
 
 .whatsapp{
@@ -190,8 +190,33 @@ h2{
     text-align: center;
 
 }
-.videopulled{
+
+.videopulled{ 
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+
+.vid{
+    width: 80%;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+.videotexto{
     text-align: center;
+    font-size: xx-large;
+}
+
+.v{
+    width: 20%;
+    margin-left: 8rem; 
+}
+
+.vudeopuleco{
+    display: inline-block;
+    float: right;
+    text-align: right;
 }
 
 .tuevento{
@@ -266,11 +291,68 @@ h2{
         width: 18.15rem;
         height: 5rem;
     }
+
+    .tunombre{
+        margin-right: 0.1rem;
+    }
+
+.mail{
+    margin-left: 0.5rem;
+}
    
 /*nosotros*/
 
-.nosotrosimg{
+.nos{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight:bolder;
+    font-size: 5rem;
+    border-color: white;
+    border-style: groove;
+    display: inline-flexbox;
     text-align: center;
+}
+
+.fotonosotros{
+    display: inline-block;
+}
+
+.nosotroimg{
+    padding: auto;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+.nosotrosimg{
+    width: 50rem;
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    padding: 0.3rem;
+    box-shadow: 0 14px 28px rgba(138, 10, 10, 0.19);
+    display: inline-block;
+    
+
+}
+
+.pulledvist{
+    width: 30%;
+    padding: auto;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-right: 8rem;
+    margin-top: 4rem;
+    
+}
+
+.nosotrosimagen{
+    width: 28rem;
+    height: auto;
+    padding: 0.3rem;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(138, 10, 10, 0.19);
 }
 
 footer{
@@ -291,6 +373,7 @@ footer{
     width: 100%;
     display: inline-block;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .socialmedia{
