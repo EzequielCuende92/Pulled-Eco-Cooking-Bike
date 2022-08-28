@@ -191,8 +191,7 @@ nav{
 
 }
 
-.videopulled{ 
-    display: inline-block;
+.videopulled{
     float: left;
     text-align: left;
 }
@@ -213,9 +212,8 @@ nav{
     margin-left: 8rem; 
 }
 
-.vudeopuleco{
+.videopuleco{
     display: inline-block;
-    float: right;
     text-align: right;
 }
 
@@ -292,7 +290,7 @@ nav{
         height: 5rem;
     }
 
-    .tunombre{
+.tunombre{
         margin-right: 0.1rem;
     }
 
@@ -319,7 +317,6 @@ nav{
 
 .nosotroimg{
     padding: auto;
-    float: left;
     display: inline-block;
     text-align: center;
 }
@@ -339,7 +336,6 @@ nav{
 .pulledvist{
     width: 30%;
     padding: auto;
-    display: inline-block;
     float: right;
     text-align: center;
     margin-right: 8rem;
